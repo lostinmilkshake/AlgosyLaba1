@@ -62,10 +62,10 @@ public:
     }
     Element<T> *getHead() {  //Returns pointer of the head
         return head;
-    }
+    } //used only for testing
     Element<T> *getTail() { //Returns pointer of the tail
         return tail;
-    }
+    } //used only for testing
     void push_front(T add);
     void push_back(T add);
     int get_size() const;
